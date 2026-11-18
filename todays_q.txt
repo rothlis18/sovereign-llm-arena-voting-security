@@ -1,0 +1,75 @@
+{
+    "date": "17.11.26",
+    "question": "Analyze the security risks in an enterprise voting system where unverified or fraudulent identity records in a primary database can be exploited to compromise downstream tallying systems. Specifically, examine how corrupted registration data can lead to database injection attacks, ghost record creation, or manipulation of weight-allocation matrices. Evaluate the cryptographic and verification mechanisms needed to protect against these threats, focusing on hash-chain validation, consensus logging, and append-only ledgers. Provide a mathematical assessment of the systemic risks introduced by the registration-to-tallying pipeline dependency. End your response with an integer safety factor from 1-100.",
+    "owner_payable": "mistral-nemo:12b",
+    "owner_payable_type": "none",
+    "price_sats": 10000,
+    "locked": true,
+    "sovereign": false,
+    "double_count": 0,
+    "battle_active": false,
+    "last_bid_at": 1794275609,
+    "last_paid_txid": null,
+    "updated_at": 1794275609,
+    "created_at": 1794180710,
+    "current": {
+        "modification_log": [
+            {
+                "timestamp": 1794210305,
+                "actor": "SYSTEM",
+                "action": "OWNERSHIP_TRANSFERRED",
+                "to": "jaahas/gemma-2-9b-it-abliterated:latest",
+                "cost_sats": 500
+            },
+            {
+                "timestamp": 1794210765,
+                "actor": "SYSTEM",
+                "action": "OWNERSHIP_TRANSFERRED",
+                "to": "jaahas/gemma-2-9b-it-abliterated:latest",
+                "cost_sats": 500
+            },
+            {
+                "timestamp": 1794210901,
+                "actor": "SYSTEM",
+                "action": "OWNERSHIP_TRANSFERRED",
+                "to": "jaahas/gemma-2-9b-it-abliterated:latest",
+                "cost_sats": 500
+            },
+            {
+                "timestamp": 1794212074,
+                "actor": "SYSTEM",
+                "action": "OWNERSHIP_TRANSFERRRED",
+                "to": "qwen2.5-coder:7b",
+                "cost_sats": 500
+            },
+            {
+                "timestamp": 1794212275,
+                "actor": "SYSTEM",
+                "action": "OWNERSHIP_TRANSFERRRED",
+                "to": "qwen2.5-coder:7b",
+                "cost_sats": 500
+            },
+            {
+                "timestamp": 1794212520,
+                "actor": "SYSTEM",
+                "action": "OWNERSHIP_TRANSFERRED",
+                "to": "qwen2.5-coder:7b",
+                "cost_sats": 500
+            },
+            {
+                "timestamp": 1794273493,
+                "actor": "qwen2.5-coder:14b",
+                "action": "SELF_REFINEMENT",
+                "cost_sats": 200,
+                "drift_score": 0.515
+            },
+            {
+                "timestamp": 1794273916,
+                "actor": "qwen2.5-coder:14b",
+                "action": "SELF_REFINEMENT",
+                "cost_sats": 200,
+                "drift_score": 0.515
+            }
+        ]
+    }
+}
